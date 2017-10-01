@@ -1,1 +1,0 @@
-.\py\gc_arcsde_create_copy.py "vsdev4015" "TEST_H_2" "sqlserver" "sde" "128" "8" "8" "4" "SIMPLE" "GEOCOMsql2015" "GEOCOMsql2015" "GEOCOMsql2015" "C:/Program Files/ESRI/License10.3/sysgen/keycodes.ecp" "C:/temp" "GEOMETRY" "C:/temp/New File Geodatabase.gdb" "706490.780012436" "226923.969956476" "708124.09003469" "229125.969972171" "LOW" "LOW" "LOW" "LOW" "16" >log.txt
