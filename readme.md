@@ -1,2 +1,2 @@
 #MyApp
-This is my app editied by other user
+This is my app editied by pdusza_geocom
