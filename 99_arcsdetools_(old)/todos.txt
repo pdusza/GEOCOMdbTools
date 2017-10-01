@@ -1,0 +1,12 @@
+- nice to have: create user/roles --> alles über SQL (wegen password policy)
+- ArcGis-Tools Hilfe fertigstellen
+- mit esri support schauen, weshalb 1 dataset nicht versioniert werden kann
+- T-SQL --> immer DB mitgeben, connect nicht immer gegen master-DB
+
+Ideen:
+- Disconnect users? (true/false)
+- Mailversand? (true/false)
+- Mailversand verbessern (nur wenn Fehlerhaft oder immer...?)
+- Rebuild Indexes...für GEOMETRY kein Problem (Spatial Typ angeben??)
+- ArcGIS-Lizenz (aus)checken
+- DB-Backup/Restore Tool erstellen

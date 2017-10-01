@@ -1,0 +1,9 @@
+﻿UpdatdeCursor  
+
+Das Beispiel aktualisiert in einer FeatureClass oder Tabelle die Werte welche folgender Regel unterliegen: 
+•Elemente erfüllen die whereCond 
+•Der Wert im Feld ist ungleich dem neuen Wert 
+
+Spezielles: 
+•NULL-Werte werden ebenfalls aktualisiert, wenn der neue Wert None ist
+

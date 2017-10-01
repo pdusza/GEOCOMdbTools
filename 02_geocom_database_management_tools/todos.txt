@@ -1,0 +1,49 @@
+Todos by DUPR:
+
+- nice to have: create user/roles --> alles über SQL (wegen password policy)
+
+- ArcGis-Tools Hilfe fertigstellen
+
+- Mit esri support schauen, weshalb 1 dataset nicht versioniert werden kann
+
+- T-SQL --> immer DB mitgeben, connect nicht immer gegen master DB
+
+- SDEBINARY Tools: 
+- Die Liste für das englische Datenmodellen muss erstellt werden.
+- SDEBINARY Tools: Falls eine Feature Class, welche in der DB gibt, nicht im Skript vorhanden ist, dann sollte der Default Spatial Index verwendet werden.
+- Data Compression im "Set spatial indexes geometry (MSSQL)" Tool soll ins Advanced Settings verschoben werden. 
+
+- Set spatial indexes (GEOMETRY): Tool funktioniert aktuell nur, wenn sde-Schema verwendet wird, sprich, die SDE-Tabellen im sde-Schema liegen (somit nicht für Workgroup-eGDBs)
+
+
+Ideen:
+
+- Disconnect users? (true/false)
+
+- Mailversand? (true/false)
+
+- Mailversand verbessern (nur wenn Fehlerhaft oder immer...?)
+
+- Rebuild Indexes...für GEOMETRY kein Problem (Spatial Typ angeben??)
+
+- ArcGIS-Lizenz (aus)checken
+- DB-Backup/Restore Tool erstellen
+
+- Windows password policies sollen überprüft werden
+
+
+Bugs:
+
+- Versionierung: jeweils das erste FeatureDataset pro DB kann nicht als versioniert registriert werden (Register as versioned is not supported for a dataset in feature dataset containing....)
+
+- Exceptions im Tool "Register data as versioned" werden manchmal falsch interpretiert
+	z.B: Exception "AVS" -> werden alle AV Tabellen und Feature Classes ignoriert
+
+- Probleme mit zu langem DB User Name
+- Bei der 10.5.0 Version werden ins Logs (0,1,2,3,4,5,0,1...) Werte reingeschrieben. Tool "register data as versioned"
+
+- Das Tool "Set spatial index sdebinary" stürzt ab, wenn auf der Liste Feature Classes gibt, welche nicht in der DB gibt. Das Tool sollte einfach diese FCs überspringen
+- Wenn man das "Workflow ...." Tool starten, dann werden die Tabellen nicht als versioniert registiert obwohl im Code steht es:
+	gc_egdb_reg_as_ver.main(outgdb,"WITH TABLES","GN")
+
+

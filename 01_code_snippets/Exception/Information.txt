@@ -1,0 +1,11 @@
+﻿Exception 
+Das Beispiel gibt alle Fehler mit dem Traceback aus. Dies ist hilfreich wenn es darum geht, nicht alle erdenklichen Fehler abzufangen (Umgang mit Division durch Null, None als Wert, keine Elemente, Objekte gesperrt etc.): 
+ 
+Ausgabe (Sampe): 
+ERROR:   Generel Error... 
+ERROR:   ('sample.py', 1234, 'AbgleichRUN', 'SetEnvironments(pWorkspace, pPwName, pScratchDir, pQualif)') 
+ERROR:   ('sample.py', 1202, 'SetEnvironments', 'self.Set_Environment_GNELE()') 
+ERROR:   ('sample.py', 1136, 'Set_Environment_GNELE', 'rows = arcpy.SearchCursor(tablename)') 
+ERROR:   ('…arcpy\\__init__.py', 1179, 'SearchCursor', '……') 
+ERROR:   ('…arcpy\\geoprocessing\\_base.py', 359, 'searchCursor', 'self._gp.SearchCursor(*gp_fixargs(args, True)))') 
+         Script finished
