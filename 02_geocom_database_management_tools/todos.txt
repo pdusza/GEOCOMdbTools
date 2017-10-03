@@ -1,5 +1,7 @@
 Todos by DUPR:
 
+- Adjust the files for the Github repository
+
 - nice to have: create user/roles --> alles über SQL (wegen password policy)
 
 - ArcGis-Tools Hilfe fertigstellen
