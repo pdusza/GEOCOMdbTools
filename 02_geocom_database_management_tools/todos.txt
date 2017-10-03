@@ -1,6 +1,6 @@
 Todos by DUPR:
 
-- Adjust the files for the Github repository
+- Adjust the files for the Github repository and make cool presentation
 
 - nice to have: create user/roles --> alles über SQL (wegen password policy)
 
